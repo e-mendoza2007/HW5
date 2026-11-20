@@ -65,9 +65,3 @@ Las implementaciones de quicksort y arbol son **ejemplos originales equivalentes
 - Registros y memoria se inicializan en cero; solo los bytes del programa se cargan en `0x0`.
 - `x0` siempre es cero; los resultados de aritmetica son modulo `2^32`.
 - Operaciones desalineadas `lh/lhu/sh` y `lw/sw`, PC desalineado e instrucciones invalidas emiten `TRAP` con detalle.
-- `ecall`, desensamblador completo, archivos ELF y depuracion GDB son extras **no implementados**. `pc` muestra la instruccion hexadecimal y una nemotecnia basica, que no equivale a un desensamblador completo.
-- No se ha creado repositorio publico ni video en Google Drive: esos enlaces los debe completar quien entregue el proyecto.
-
-## Entrega real segun el enunciado
-
-El profesor solicita un PDF con enlaces a: repositorio Git, carpeta de Google Drive con video y codigo fuente, y un informe breve. El video tiene que demostrar al menos cuatro ejecuciones. El archivo PDF de esta solucion incluye un guion propuesto.
